@@ -3,51 +3,51 @@ package com.elseyu.stack_queue;
 import java.util.Stack;
 
 /**
- * ÊµÏÖÒ»¸öÌØÊâµÄÕ»£¬ÔÚÊµÏÖÕ»µÄ»ù´¡¹¦ÄÜÉÏ£¬ÔÙ·µ»ØÕ»ÖĞ×îĞ¡ÔªËØµÄ»ù±¾²Ù×÷
- * µÚÒ»ÖÖ×ö·¨
+ * å®ç°ä¸€ä¸ªç‰¹æ®Šçš„æ ˆï¼Œåœ¨å®ç°æ ˆçš„åŸºç¡€åŠŸèƒ½ä¸Šï¼Œå†è¿”å›æ ˆä¸­æœ€å°å…ƒç´ çš„åŸºæœ¬æ“ä½œ
+ * ç¬¬ä¸€ç§åšæ³•
  * @author Administrator
  *
  */
 
 public class GetMinStack1 {
-	private Stack<Integer> stackData; //±£´æÔ­Ê¼Êı¾İµÄÕ»
-	private Stack<Integer> stackMin; //±£´æ×îĞ¡ÖµµÄÕ»
+	private Stack<Integer> stackData; //ä¿å­˜åŸå§‹æ•°æ®çš„æ ˆ
+	private Stack<Integer> stackMin; //ä¿å­˜æœ€å°å€¼çš„æ ˆ
 	
 	public GetMinStack1() {
 		this.stackData = new Stack<>();
 		this.stackMin = new Stack<>();
 	}
 	
-	//²åÈë
+	//æ’å…¥
 	public void push(int newNum) {
-		//×°×îĞ¡ÖµµÄÕ»Îª¿ÕÊ±Ö±½Ó²åÈë
+		//è£…æœ€å°å€¼çš„æ ˆä¸ºç©ºæ—¶ç›´æ¥æ’å…¥
 		if(this.stackMin.isEmpty()) {
 			stackMin.push(newNum);
-			//Èç¹ûĞÂÑ¹ÈëµÄÊıÖµĞ¡ÓÚ×îĞ¡ÖµÕ»¶¥µÄÊı£¬ÔòÒ²Ñ¹Èë×îĞ¡ÖµµÄÕ»ÖĞ
+			//å¦‚æœæ–°å‹å…¥çš„æ•°å€¼å°äºæœ€å°å€¼æ ˆé¡¶çš„æ•°ï¼Œåˆ™ä¹Ÿå‹å…¥æœ€å°å€¼çš„æ ˆä¸­
 		} else if(newNum <= this.getMin()) {
 			this.stackMin.push(newNum);
 		}
-		//ÈëÕ»
+		//å…¥æ ˆ
 		this.stackData.push(newNum);
 	}
 
-	//µ¯³ö
+	//å¼¹å‡º
 	public int pop() {
 		if(this.stackData.isEmpty()) {
-			throw new RuntimeException("Õ»ÒÑ¾­¿ÕÁË£¡");
+			throw new RuntimeException("æ ˆå·²ç»ç©ºäº†ï¼");
 		}
 		int value = this.stackData.pop();
-		//Èç¹ûµ¯³öµÄÊıÖµµÈÓÚÕ»£¨Ö»»á´óÓÚ»òÕßµÈÓÚ£©£¬Ôò×îĞ¡ÖµÕ»µ¯³öÕ»¶¥ÔªËØ
+		//å¦‚æœå¼¹å‡ºçš„æ•°å€¼ç­‰äºæ ˆï¼ˆåªä¼šå¤§äºæˆ–è€…ç­‰äºï¼‰ï¼Œåˆ™æœ€å°å€¼æ ˆå¼¹å‡ºæ ˆé¡¶å…ƒç´ 
 		if(value == getMin()) {
 			this.stackMin.pop();
 		}
 		return value;
 	}
 	
-	//»ñÈ¡×îĞ¡Öµ
+	//è·å–æœ€å°å€¼
 	private int getMin() {
 		if(this.stackMin.isEmpty()) {
-			throw new RuntimeException("Õ»Îª¿Õ£¡£¡");
+			throw new RuntimeException("æ ˆä¸ºç©ºï¼ï¼");
 		}
 		this.stackMin.peek();
 		return 0;
