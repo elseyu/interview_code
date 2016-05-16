@@ -90,7 +90,7 @@ public class MaxTree {
 		for (int i = nodeArr.length - 1; i >= 0; i--) {
 			Node curNode = nodeArr[i];
 			//这一步很关键，如果栈非空，并且栈顶的节点值小于当前节点，则栈顶出栈（如果不出栈直接压入，则破坏了栈从下往上，是递减序列），
-			//出栈的节点的左边第一个比它大的数一定是它下面的数值，得把它们的关系保存到Hash表里面
+			//出栈的节点的右边边第一个比它大的数一定是它下面的数值，得把它们的关系保存到Hash表里面
 			while ((!stack.empty()) && stack.peek().value < curNode.value) {
 				//栈顶元素出栈
 				Node topNode = stack.pop();
