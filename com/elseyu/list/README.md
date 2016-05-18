@@ -23,3 +23,9 @@
 - 反转部分链表：给定一个单向链表的头节点head，以及两个整数from、to，在单链表把from到to的这一部分反转
 
 	/interview_code/src/com/elseyu/list/ReversePartList.java
+
+-	环形单链表解约瑟夫问题
+
+	细化题目：比较简单，给定人数n，报数间隔是m，每个人都有从1~n的编号，依次从1到m循环报数，
+
+	/interview_code/src/com/elseyu/list/JosephusProblem.java
