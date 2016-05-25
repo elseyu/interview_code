@@ -15,7 +15,7 @@ public class SelectionSortInList {
 		//往后遍历的当前节点
 		Node cur = head;
 		//前一个节点
-		Node pre = null;
+//		Node pre = null;
 		//保存最小节点
 		Node min = null;
 		//最小节点的前一个节点
