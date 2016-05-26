@@ -2,8 +2,6 @@ package com.elseyu.binarytree;
 
 import java.util.Stack;
 
-import javax.swing.text.AbstractDocument.LeafElement;
-
 /*
  * 分别用递归和非递归的方式先序、中序、后序遍历二叉树
  * 1.递归方法，书上的基础内容，不多说
