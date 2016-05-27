@@ -212,3 +212,18 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 2016.5.26
 
 =======
+
+- 实现二叉树的序列化和反序列化
+ * 二叉树被记录成文件的过程叫做序列化，通过文件内容重建原来二叉树的过程叫做
+ * 二叉树的反序列化。给定一棵二叉树的头节点head，并已知节点类型为32位的整数，
+ * 请设计一种二叉树序列化和反序列化的方案。
+
+	/interview_code/src/com/elseyu/binarytree/SerializeTree.java
+
+- 二叉树的层次遍历
+
+	/interview_code/src/com/elseyu/binarytree/LevelTraverse.java
+
+2016.5.27
+
+=======
