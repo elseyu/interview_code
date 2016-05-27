@@ -18,27 +18,29 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 一、栈和队列
 
-	/com/elseyu/stack_queue/
+	[/com/elseyu/stack_queue](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue "栈和队列")
 
 - 二、链表
 
-	/com/elseyu/list/
+	[/com/elseyu/list](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list "链表")
 
 - 三、二叉树
 
-	com/elseyu/binarytree
+	[/com/elseyu/binarytree](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree "二叉树")
 
 -----
 ##一、栈和队列#
 - 设计一个有getMin()功能的栈：实现一个特殊的栈，在实现栈的基础功能上，再返回栈中最小元素的基本操作
 
-	第一种解法：/interview_code/src/com/elseyu/stack_queue/GetMinStack1.java
+	第一种解法：[/com/elseyu/stack_queue/GetMinStack1.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/GetMinStack1.java "第一种解法")
 
-	第二种解法：/interview_code/src/com/elseyu/stack_queue/GetMinStack2.java
+	第二种解法：[/com/elseyu/stack_queue/GetMinStack2.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/GetMinStack2.java "第二种解法")
 
 - 由两个栈实现一个队列
 	
-	经典题目，无需多说：/interview_code/src/com/elseyu/stack_queue/TwoStackQueue.java
+	经典题目，无需多说：
+
+	[/com/elseyu/stack_queue/TwoStackQueue.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/TwoStackQueue.java "由两个栈实现一个队列")
 														
 	2016.5.13
 
@@ -48,7 +50,7 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 	
 	要求：只能用递归函数来实现，不能使用其他数据结构
 
-	/interview_code/src/com/elseyu/stack_queue/ReverseStack.java
+	[/com/elseyu/stack_queue/ReverseStack.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/ReverseStack.java "如何仅用递归函数逆序一个栈")
 
 -	实现猫狗队列：
 	
@@ -62,7 +64,7 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
  * 6.isDogEmpty()判断队列狗是否为空
  * 7.isCatEmpty()判断队列猫是否为空
 
-	/interview_code/src/com/elseyu/stack_queue/DogCatQueue.java
+	[/com/elseyu/stack_queue/DogCatQueue.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/DogCatQueue.java "实现猫狗队列")
 
 	2016.5.14
 
@@ -73,11 +75,11 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 	
 	要求：只能额外申请一个栈，允许使用变量，但是不能申请其它数据结构 
 
-	/interview_code/src/com/elseyu/stack_queue/SortStack.java
+	[/com/elseyu/stack_queue/SortStack.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/SortStack.java "用一个栈实现另一个栈的排序")
 
 -	生成窗口最大值数组：如果数组长为n，窗口为w，则窗口数组为n-w+1，它记录着每个窗口的最大值。
 
-	/interview_code/src/com/elseyu/stack_queue/MaxWindow.java
+	[/com/elseyu/stack_queue/MaxWindow.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/MaxWindow.java "生成窗口最大值数组")
 
 	2016.5.15
 
@@ -88,13 +90,13 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 	要求：给定一个数组，此数组没有重复值，用此数组的所有值构造一棵二叉树，使得这个树的的每一棵子树的树头都是最大值
 
-	/interview_code/src/com/elseyu/stack_queue/MaxTree.java
+	[/com/elseyu/stack_queue/MaxTree.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/MaxTree.java "构造数组的MaxTree")
 
 -	求最大子矩阵的大小：
 	
 	要求：给定一个整数矩阵map，其中值只有0,1两种，求其中全是1的所有矩阵区域中，最大矩阵区域为1的数量
 
-	/interview_code/src/com/elseyu/stack_queue/MaxChildMatrix.java
+	[/com/elseyu/stack_queue/MaxChildMatrix.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/MaxChildMatrix.java "求最大子矩阵的大小")
 
 	2016.5.16
 
@@ -105,19 +107,20 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 打印两个有序链表的公共部分
 
-	/interview_code/src/com/elseyu/list/CommonNode.java
+	[/interview_code/src/com/elseyu/list/CommonNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/CommonNode.java "打印两个有序链表的公共部分")
+
 
 - 删除单、双链表倒数第k个节点，后面给出双链表节点的定义（单链表节点的定义在同一个包中，就不特别给出了）
 
-	/interview_code/src/com/elseyu/list/DeleteLastK.java
+	[/com/elseyu/list/DeleteLastK.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/DeleteLastK.java "删除单、双链表倒数第k个节点")
 
 - 删除链表的中间节点或者a/b处的节点：
 
-	/interview_code/src/com/elseyu/list/DeleteNode.java
+	[/com/elseyu/list/DeleteNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/DeleteNode.java "删除链表的中间节点或者a")
 
 - 反转单、双向链表：老经典题目了，不解释，上代码
 
-	/interview_code/src/com/elseyu/list/ReVerseList.java
+	[/com/elseyu/list/ReVerseList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/ReVerseList.java "反转单、双向链表")
 
 2016.5.17
 
@@ -125,13 +128,13 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 反转部分链表：给定一个单向链表的头节点head，以及两个整数from、to，在单链表把from到to的这一部分反转
 
-	/interview_code/src/com/elseyu/list/ReversePartList.java
+	[/com/elseyu/list/ReversePartList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/ReversePartList.java "反转部分链表")
 
 -	环形单链表解约瑟夫问题
 
 	细化题目：比较简单，给定人数n，报数间隔是m，每个人都有从1~n的编号，依次从1到m循环报数，
 
-	/interview_code/src/com/elseyu/list/JosephusProblem.java
+	[/com/elseyu/list/JosephusProblem.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/JosephusProblem.java "环形单链表解约瑟夫问题")
 
 2016.5.18
 
@@ -139,11 +142,11 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 判断一个链表是否为回文结构，进阶：如果链表长度是N，则时间复杂度请达到O(N),空间复杂度为O(1)
 
-	/interview_code/src/com/elseyu/list/PalindromeList.java
+	[/com/elseyu/list/PalindromeList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/PalindromeList.java "判断一个链表是否为回文结构")
 
 - 将单向链表按某值划分为左边小、中间相等、右边大的形式，要求：划分后原顺序不变（应该说是稳定的），时间复杂度O(N),空间复杂度O(1)
 
-	/interview_code/src/com/elseyu/list/Listpartition.java
+	[/com/elseyu/list/Listpartition.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/Listpartition.java "将单向链表按某值划分为左边小、中间相等、右边大的形式")
 
 2016.5.19
 
@@ -151,11 +154,11 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 复制含有随机节点的链表
 
-	/interview_code/src/com/elseyu/list/CopyListWithRand.java
+	[/com/elseyu/list/CopyListWithRand.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/CopyListWithRand.java "复制含有随机节点的链表")
 
-- 两个单链表相加生成相加链表问题描述：有点像大整数加法，假如给定一个链表1->2->3->null,那么它代表数值123，另一个链表2->3->null,它代表23，相加为146，返回1->4->6-null
+- 两个单链表相加生成相加链表，问题描述：有点像大整数加法，假如给定一个链表1->2->3->null,那么它代表数值123，另一个链表2->3->null,它代表23，相加为146，返回1->4->6-null
 
-	/interview_code/src/com/elseyu/list/AddList.java
+	[/com/elseyu/list/AddList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/AddList.java "两个单链表相加生成相加链表")
 
 2016.5.20
 
@@ -163,7 +166,7 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 两个单链表相交的一系列问题：在这里，单链表可能有环，也可能无环。给定两个单链表的的头head1、head2，这两个链表可能相交，也可能不相交。请设计一个函数，如果两个链表相交，则返回相交的第一个节点；若不相交则返回null要求：时间复杂度：O(n+m),空间复杂度O(1)
 
-	/interview_code/src/com/elseyu/list/IntersectList.java
+	[/com/elseyu/list/IntersectList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/IntersectList.java "两个单链表相交的一系列问题")
 
 2016.5.21
 
@@ -171,11 +174,11 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 将单链表每k个节点之间逆序:给定一个但单链表的头节点，请设计一个函数，实现这个单链表,在每k个节点之间逆序，如果最后不足k个节点，则不用调整
 
-	/interview_code/src/com/elseyu/list/ReverseEveryKPart.java
+	[/com/elseyu/list/ReverseEveryKPart.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/ReverseEveryKPart.java "将单链表每k个节点之间逆序")
 
 - 删除无序链表中重复出现的节点
 
-	/interview_code/src/com/elseyu/list/RemoveRepeatNode.java
+	[/com/elseyu/list/RemoveRepeatNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/RemoveRepeatNode.java "删除无序链表中重复出现的节点")
 
 2016.5.22
 
@@ -183,15 +186,15 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 在单链表中删除指定值的节点:给定头节点head，和指定值value，删除链表中值为value的点
 
-	/interview_code/src/com/elseyu/list/RemoveValue.java
+	[/com/elseyu/list/RemoveValue.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/RemoveValue.java "在单链表中删除指定值的节点")
 
 -	将搜索二叉树转换成双向链表：现在有一颗搜索二叉树，请将它转换为有序的双向链表
 
-	/interview_code/src/com/elseyu/list/SBT2DoubleList.java
+	[/com/elseyu/list/SBT2DoubleList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/SBT2DoubleList.java "将搜索二叉树转换成双向链表")
 
-- 单链表的选择排序
+- 单链表的选择排序(待修正)
 
-	/interview_code/src/com/elseyu/list/SelectionSortInList.java
+	[/com/elseyu/list/SelectionSortInList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/SelectionSortInList.java "单链表的选择排序")
 
 2016.5.24
 
@@ -199,19 +202,22 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 - 向有序的环形单链表中插入新节点
 
-	/interview_code/src/com/elseyu/list/InsertNode.java
+	[/com/elseyu/list/InsertNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/InsertNode.java "向有序的环形单链表中插入新节点")
 
 - 合并两个有序的单链表
 
-	/interview_code/src/com/elseyu/list/MergeList.java
+	[/com/elseyu/list/MergeList.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/list/MergeList.java "合并两个有序的单链表")
 
 2016.5.25
 
 =======
 
+-----
+##三、二叉树#
+
 - 分别用递归和非递归的方式先序、中序、后序遍历二叉树
 
-	/interview_code/src/com/elseyu/binarytree/TraverseTree.java
+	[/com/elseyu/binarytree/TraverseTree.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/TraverseTree.java "分别用递归和非递归的方式先序、中序、后序遍历二叉树")
 
 2016.5.26
 
@@ -222,15 +228,15 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
  * 二叉树的反序列化。给定一棵二叉树的头节点head，并已知节点类型为32位的整数，
  * 请设计一种二叉树序列化和反序列化的方案。
 
-	/interview_code/src/com/elseyu/binarytree/SerializeTree.java
+	[/com/elseyu/binarytree/SerializeTree.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/SerializeTree.java "实现二叉树的序列化和反序列化")
 
 - 二叉树的层次遍历
 
-	/interview_code/src/com/elseyu/binarytree/LevelTraverse.java
+	[/com/elseyu/binarytree/LevelTraverse.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/LevelTraverse.java "二叉树的层次遍历")
 
 - 已知二叉树的先根、中根遍历，创建二叉树
 
-	/interview_code/src/com/elseyu/binarytree/CreateTree.java
+	[/com/elseyu/binarytree/CreateTree.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CreateTree.java "已知二叉树的先根、中根遍历，创建二叉树")
 
 2016.5.27
 
