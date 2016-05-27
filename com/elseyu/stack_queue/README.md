@@ -1,13 +1,15 @@
 ##一、栈和队列#
 - 设计一个有getMin()功能的栈：实现一个特殊的栈，在实现栈的基础功能上，再返回栈中最小元素的基本操作
 
-	第一种解法：/interview_code/src/com/elseyu/stack_queue/GetMinStack1.java
+	第一种解法：[/GetMinStack1.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/GetMinStack1.java "第一种解法")
 
-	第二种解法：/interview_code/src/com/elseyu/stack_queue/GetMinStack2.java
+	第二种解法：[/GetMinStack2.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/GetMinStack2.java "第二种解法")
 
 - 由两个栈实现一个队列
 	
-	经典题目，无需多说：/interview_code/src/com/elseyu/stack_queue/TwoStackQueue.java
+	经典题目，无需多说：
+
+	[/TwoStackQueue.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/TwoStackQueue.java "由两个栈实现一个队列")
 														
 	2016.5.13
 
@@ -17,7 +19,7 @@
 	
 	要求：只能用递归函数来实现，不能使用其他数据结构
 
-	/interview_code/src/com/elseyu/stack_queue/ReverseStack.java
+	[/ReverseStack.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/ReverseStack.java "如何仅用递归函数逆序一个栈")
 
 -	实现猫狗队列：
 	
@@ -31,7 +33,7 @@
  * 6.isDogEmpty()判断队列狗是否为空
  * 7.isCatEmpty()判断队列猫是否为空
 
-	/interview_code/src/com/elseyu/stack_queue/DogCatQueue.java
+	[/DogCatQueue.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/DogCatQueue.java "实现猫狗队列")
 
 	2016.5.14
 
@@ -42,11 +44,11 @@
 	
 	要求：只能额外申请一个栈，允许使用变量，但是不能申请其它数据结构 
 
-	/interview_code/src/com/elseyu/stack_queue/SortStack.java
+	[/SortStack.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/SortStack.java "用一个栈实现另一个栈的排序")
 
 -	生成窗口最大值数组：如果数组长为n，窗口为w，则窗口数组为n-w+1，它记录着每个窗口的最大值。
 
-	/interview_code/src/com/elseyu/stack_queue/MaxWindow.java
+	[/MaxWindow.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/MaxWindow.java "生成窗口最大值数组")
 
 	2016.5.15
 
@@ -57,13 +59,13 @@
 
 	要求：给定一个数组，此数组没有重复值，用此数组的所有值构造一棵二叉树，使得这个树的的每一棵子树的树头都是最大值
 
-	/interview_code/src/com/elseyu/stack_queue/MaxTree.java
+	[/MaxTree.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/MaxTree.java "构造数组的MaxTree")
 
 -	求最大子矩阵的大小：
 	
 	要求：给定一个整数矩阵map，其中值只有0,1两种，求其中全是1的所有矩阵区域中，最大矩阵区域为1的数量
 
-	/interview_code/src/com/elseyu/stack_queue/MaxChildMatrix.java
+	[/MaxChildMatrix.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/stack_queue/MaxChildMatrix.java "求最大子矩阵的大小")
 
 	2016.5.16
 
