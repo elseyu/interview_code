@@ -249,3 +249,7 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 2016.5.29
 
 =======
+
+- 二叉树的按层打印
+
+	[/com/elseyu/binarytree/PrintbyLevel.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/PrintbyLevel.java "二叉树的按层打印")

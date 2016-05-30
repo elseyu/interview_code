@@ -15,7 +15,7 @@ import java.util.Queue;
  * 尾的节点必定是nLast。
  * 3.可以看代码了
  */
-public class printbyLevel {
+public class PrintbyLevel {
 	public static void printByLevel(Node head) {
 		if (head == null) {
 			return;
