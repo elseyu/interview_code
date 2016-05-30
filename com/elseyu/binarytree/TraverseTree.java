@@ -74,7 +74,7 @@ public class TraverseTree {
 	
 	/*
 	 * 2.中序非递归遍历
-	 * (1)cur=head，将head压入栈中，然后不断令cur = cur.next，不断压入栈中
+	 * (1)cur=head，将head压入栈中，然后不断令cur = cur.left，不断压入栈中
 	 * 直到cur为空,
 	 * (2)此时弹出一个节点，记为node，操作给节点，然后令cur = node.riht，再不断重复
 	 * 步骤1
