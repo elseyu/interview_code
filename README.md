@@ -253,3 +253,11 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 - 二叉树的按层打印
 
 	[/com/elseyu/binarytree/PrintbyLevel.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/PrintbyLevel.java "二叉树的按层打印")
+
+- 调整搜索二叉树中两个错误的节点：一棵二叉树原本是搜索二叉树，但是有两个节点调换了位置，使得这棵不再是搜索叉树。请找出这两个节点并返回。
+
+	[/com/elseyu/binarytree/TwoErrorNodeInBST.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/TwoErrorNodeInBST.java "调整搜索二叉树中两个错误的节点")
+
+2016.5.30
+
+=======
