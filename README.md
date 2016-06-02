@@ -268,9 +268,9 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 	[/com/elseyu/binarytree/CheckContains.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckContains.java "判断t1树是否包含t2树全部的拓扑结构")
 
-- 调整搜索二叉树中两个错误的节点：一棵二叉树原本是搜索二叉树，但是有两个节点调换了位置，使得这棵不再是搜索叉树。请找出这两个节点并返回。
+- 判断二叉树是否为平衡二叉树
 
-	[/com/elseyu/binarytree/TwoErrorNodeInBST.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/TwoErrorNodeInBST.java "判断t1树是否包含t2树全部的拓扑结构")
+	[/com/elseyu/binarytree/CheckBalance.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckBalance.java "判断二叉树是否为平衡二叉树")
 
 2016.6.02
 

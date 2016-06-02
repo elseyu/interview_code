@@ -52,3 +52,11 @@
 - 判断t1树是否包含t2树全部的拓扑结构
 
 	[/CheckContains.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckContains.java "判断t1树是否包含t2树全部的拓扑结构")
+
+- 判断二叉树是否为平衡二叉树
+
+	[/CheckBalance.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckBalance.java "判断二叉树是否为平衡二叉树")
+
+2016.6.02
+
+=======
