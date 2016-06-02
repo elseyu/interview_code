@@ -44,3 +44,11 @@
 	[/TwoErrorNodeInBST.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/TwoErrorNodeInBST.java "调整搜索二叉树中两个错误的节点")
 
 2016.5.30
+
+=======
+
+	//坑爹，体测摔伤了，前两天没心情写代码····
+
+- 判断t1树是否包含t2树全部的拓扑结构
+
+	[/CheckContains.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckContains.java "判断t1树是否包含t2树全部的拓扑结构")
