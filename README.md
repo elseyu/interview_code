@@ -275,3 +275,15 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 2016.6.02
 
 =======
+
+- 根据后序数组重建搜索二叉树
+
+	[/com/elseyu/binarytree/PostArray.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/PostArray.java "根据后序数组重建搜索二叉树")
+
+- 判断二叉树是否为平衡二叉树
+
+	[/com/elseyu/binarytree/CheckBalance.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckBalance.java "判断二叉树是否为平衡二叉树")
+
+2016.6.02
+
+=======

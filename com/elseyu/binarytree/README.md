@@ -60,3 +60,15 @@
 2016.6.02
 
 =======
+
+- 根据后序数组重建搜索二叉树
+
+	[/PostArray.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/PostArray.java "根据后序数组重建搜索二叉树")
+
+- 判断二叉树是否为平衡二叉树
+
+	[/CheckBalance.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CheckBalance.java "判断二叉树是否为平衡二叉树")
+
+2016.6.02
+
+=======
