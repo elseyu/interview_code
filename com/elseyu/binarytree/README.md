@@ -72,3 +72,15 @@
 2016.6.02
 
 =======
+
+- 根据有序数组生成平衡搜索二叉树
+
+	[/CreateBST.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CreateBST.java "根据有序数组生成平衡搜索二叉树")
+
+- 在二叉树中找到一个结点的后继节点
+
+	[/NextNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/NextNode.java "在二叉树中找到一个结点的后继节点")
+
+2016.6.03
+
+=======

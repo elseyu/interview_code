@@ -287,3 +287,15 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 2016.6.02
 
 =======
+
+- 根据有序数组生成平衡搜索二叉树
+
+	[/com/elseyu/binarytree/CreateBST.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/CreateBST.java "根据有序数组生成平衡搜索二叉树")
+
+- 在二叉树中找到一个结点的后继节点
+
+	[/com/elseyu/binarytree/NextNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/NextNode.java "在二叉树中找到一个结点的后继节点")
+
+2016.6.03
+
+=======
