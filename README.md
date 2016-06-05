@@ -28,6 +28,10 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 
 	[/com/elseyu/binarytree](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree "二叉树")
 
+- 四、递归和动态规划
+
+	[/com/elseyu/dp](https://github.com/elseyu/interview_code/blob/master/com/elseyu/dp "斐波那契系列问题的递归和动态规划")
+
 -----
 ##一、栈和队列#
 - 设计一个有getMin()功能的栈：实现一个特殊的栈，在实现栈的基础功能上，再返回栈中最小元素的基本操作
@@ -297,5 +301,15 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 	[/com/elseyu/binarytree/NextNode.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/binarytree/NextNode.java "在二叉树中找到一个结点的后继节点")
 
 2016.6.03
+
+=======
+
+##四、递归和动态规划#
+
+- 斐波那契系列问题的递归和动态规划
+
+	[/com/elseyu/dp/Fibonacci.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/dp/Fibonacci.java "斐波那契系列问题的递归和动态规划")
+
+2016.6.05
 
 =======
