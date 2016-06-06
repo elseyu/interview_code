@@ -313,3 +313,12 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 2016.6.05
 
 =======
+
+- 矩阵的最小路径和：
+从左上角开始，每次只能向右走或者向下走，最后到达右下角的位置，路径上所有数字加起来的结果就是路径和，返回所有路径中最小的路径和
+
+	[/com/elseyu/dp/MinPathSum.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/dp/MinPathSum.java "矩阵的最小路径和")
+
+2016.6.06
+
+=======
