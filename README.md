@@ -322,3 +322,12 @@ ps:这里列出了所有的题目，并且分好类，相同的类型的题目�
 2016.6.06
 
 =======
+
+- 换钱的方法数：
+给定数组arr,arr中所有值都是正数而且不重复，每个值代表一种面值的货币，每种面值的货币可以使用任意张在给定一个aim代表要找的钱数的目标，求换钱有多少种方法。
+
+	[/com/elseyu/dp/Coins.java](https://github.com/elseyu/interview_code/blob/master/com/elseyu/dp/Coins.java "换钱的方法数")
+
+2016.6.13
+
+=======
